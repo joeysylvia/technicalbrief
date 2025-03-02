@@ -36,7 +36,7 @@ Address:        168.63.129.16#53
 
 
 
-Web Development Questions
+### Web Development Questions
 
 ##### When creating your web app, you selected a runtime stack.  What was it? Does it work on the front end or the back end? 
 
@@ -54,9 +54,9 @@ Back end
 
 
 
-Day 2 Questions
 
-Cloud Questions
+
+### Cloud Questions
 
 ##### What is a cloud tenant?
 
@@ -73,7 +73,7 @@ Because it can determine whether a security principal can perform different oper
 Keys enables the use of software. Secrets provide secure storage for passwords and database connection strings. Certificates are built on top of the keys and secrets and add an automated renewal feature.
 
 
-Cryptography Questions
+### Cryptography Questions
 
 ##### What are the advantages of a self-signed certificate?
 
@@ -94,28 +94,21 @@ Is a public key cert that can be used with multiple sub-domains pertaining to th
 
 This was to ensure user safety. It had to many vulnerabilities which was affecting the users. 
 
-
-After completing the Day 2 activities, view your SSL certificate and answer the following questions:
-
 ##### Is your browser returning an error for your SSL certificate? Why or why not?
 
 Yes, it tells be it is not secure, and this is because I have an Self-Signed certificate which by browser does not trust.  
-
 
 ##### What is the validity of your certificate (date range)?
 
 Tues. December 27, 2022 to Friday, December 22, 2023.
 
-
 ##### Do you have an intermediate certificate? If so, what is it?
 
 Yes, it is  *.azurewebsites.net
 
-
 ##### Do you have a root certificate? If so, what is it?
 
 Yes, it is Microsoft Azure TLS Issuing CA 05 
-
 
 ##### Does your browser have the root certificate in its root store?
 
@@ -127,10 +120,7 @@ yes
 AAA Certificate Service 
 
 
-
-Day 3 Questions
-
-Cloud Security Questions 
+### Cloud Security Questions 
 
 ##### What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?
 
